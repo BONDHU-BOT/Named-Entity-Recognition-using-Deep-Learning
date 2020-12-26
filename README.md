@@ -408,50 +408,7 @@ X[0]
            35178, 35178, 35178, 35178, 35178, 35178, 35178, 35178, 35178,
            35178, 35178, 35178, 35178, 35178, 35178, 35178, 35178, 35178,
            35178, 35178, 35178, 35178, 35178], dtype=int32)
-
-
-
-
-```python
-sent = 'Thousand of animal'
-aaa = []
-for w in sent.split():
-    print(w)
-    try:
-        aaa.append(word2idx[w])
-    except:
-        aaa.append(num_words-1)
-        
-nnn = len(aaa)
-for _ in range(nnn, 50):
-    aaa.append(num_words-1)
-aaa = np.array(aaa, dtype=int)
-len(aaa)
-```
-
-    Thousand
-    of
-    animal
-
-
-
-
-
-    50
-
-
-
-
-```python
-word2idx['and']
-```
-
-
-
-
-    28033
-
-
+           
 
 
 ```python
