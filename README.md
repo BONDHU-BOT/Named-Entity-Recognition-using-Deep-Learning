@@ -11,6 +11,14 @@
 
 **Notes: Bi-directional GRU performed well.**
 
+## Accuracy
+
+| model  | training loss | training acc | validation loss | validation acc |
+| :---: | :---: | :---: | :---: | :---: |
+| Bi-directional LSTM | 0.039 | 0.988 | 0.048 | 0.985 |
+| Bi-directional GRU | 0.034 | 0.989 | 0.045 | 0.986 |
+
+
 ## Performance (Bi-directional GRU) 
 
 <table>
