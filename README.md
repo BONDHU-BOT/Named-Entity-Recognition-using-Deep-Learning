@@ -1,4 +1,4 @@
-<h2 align=center> Named Entity Recognition (NER) using LSTMs with Keras</h2>
+<h2 align=center> Named Entity Recognition (NER) using LSTM with Keras</h2>
 
 ### Dataset Source
 
